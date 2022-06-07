@@ -85,7 +85,7 @@ the `<py-script>` tag to write to.
     <head>
       <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
       <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+      <link href="https://fastly.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     </head>
 
   <body>
@@ -230,7 +230,7 @@ The `<py-config>` tag can be used as follows:
 <py-config>
   autoclose_loader: false
   runtimes:
-    - src: "https://cdn.jsdelivr.net/pyodide/v0.20.0/full/pyodide.js"
+    - src: "https://fastly.jsdelivr.net/pyodide/v0.20.0/full/pyodide.js"
       name: pyodide-0.20
       lang: python
 </py-config>
